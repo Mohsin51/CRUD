@@ -7,7 +7,6 @@ $conn=mysqli_connect($server, $user, $pass, $db);
 $name=$_POST['sname'];
 $addr=$_POST['saddress'];
 $phone=$_POST['sphone'];
-$course=$_POST['scourse'];
 
 if(isset($_POST['submit'])){
 $sql="INSERT INTO students (sName, sAddress, sPhone) VALUES(
